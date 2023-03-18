@@ -1,0 +1,10 @@
+export { default as Hero } from './hero/Hero';
+export { default as Header } from './header/Header';
+export { default as BlogList } from './blogs/BlogList';
+export { default as BlogItem } from './blogs/BlogItem';
+export { default as BlogDetail } from './blogs/BlogDetail';
+export { default as Contact } from './contact/Contact';
+export { default as Events } from './events/Events';
+export { default as Faq } from './faq/Faq';
+export { default as Sponsors } from './sponsors/Sponsors';
+export { default as Vision } from './vision/Vision';
