@@ -5,7 +5,7 @@ import React from 'react';
 function Header() {
     //...
     return (
-        <div class="font-sans">Header</div>
+        <div className="font-sans">Header</div>
     );
 }
 

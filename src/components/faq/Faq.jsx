@@ -5,7 +5,7 @@ import React from 'react';
 function Faq() {
     //...
     return (
-        <div class="font-sans">Faq</div>
+        <div className="font-sans">Faq</div>
     );
 }
 

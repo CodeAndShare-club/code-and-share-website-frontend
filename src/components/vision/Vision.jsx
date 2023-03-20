@@ -5,7 +5,7 @@ import React from 'react';
 function Vision() {
     //...
     return (
-        <div class="font-sans">Vision</div>
+        <div className="font-sans">Vision</div>
     );
 }
 
