@@ -8,9 +8,9 @@ module.exports = {
       sans: ["Poppins", "sans-serif"]
     },
     colors: {
-      primary: '#025ECE',
-      secondary: '#4AC1DA40',
-      accent:'#FFFFEE'
+      primary: '#0A0F3A',
+      secondary: '#025ECE6B',
+      accent:'#4AC1DA'
     },
     extend: {},
   },
