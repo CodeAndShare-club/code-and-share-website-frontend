@@ -2,12 +2,12 @@ import {Header ,Hero, Events, BlogList, Vision, Faq, Sponsors, Contact} from '@/
 import styles from '@/styles/Home.module.css'
 
 
-export default function Home() {
+export default function Home({eventsData}) {
   return (
     <>
       <Header/>
       <Hero/>
-      <Events/>
+      <Events eventsData={eventsData}/>
       <BlogList/>
       <Vision/>
       <Faq/>
@@ -15,4 +15,15 @@ export default function Home() {
       <Contact/>
     </>
   )
+}
+
+export async function getServerSideProps(context) {
+  const events = await fetch('https://codeandshare.pythonanywhere.com/events');
+  const eventsData = await events.json();
+
+  return {
+    props: {
+      eventsData,
+    }
+  }
 }
