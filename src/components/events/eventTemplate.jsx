@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function EventTemplate({name, image, description}) {
   return (
-    <div className='flex flex-col justify-center items-center w-full bg-secondary bg-opacity-50 drop-shadow-2xl shadow-secondary shadow-md font-sans rounded-xl gap-4 px-4 py-4 lg:py-8 mb-8'>
+    <div className='flex flex-col justify-center items-center w-full bg-secondary bg-opacity-50 drop-shadow-2xl shadow-secondary shadow-md font-sans rounded-xl gap-4 px-2 md:px-4 py-4 lg:py-8 mb-8'>
         <h2 className='text-primary font-bold p-2 text-[11px] sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
             {name}
         </h2>
