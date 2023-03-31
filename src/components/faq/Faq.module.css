@@ -1,0 +1,133 @@
+
+
+.contain{
+    width: "100vw";
+    height: "100vh";
+    background-Image: url('/fond.jpg');
+}
+.container
+{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0px 20px;
+}
+.containerr
+{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px 200px ;
+  padding: 0px 20px;
+}
+.cards{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardss{
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+}
+.cardd{
+  flex:0 0 calc(33.33% - 20px);
+  max-width:calc(33.33% - 20px) ;
+  width: 100%;
+  background-color: #d2eff5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  transition: .3s;
+  border: 2px solid transparent;
+
+}
+.enonce
+{
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+.answer{
+  color: #000;
+  font-weight: 400;
+}
+.card{
+  flex:0 0 calc(33.33% - 20px);
+  max-width:calc(33.33% - 20px) ;
+  width: 100%;
+  background-color: #d2eff5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: .3s;
+  border: 3px solid transparent;
+}
+.card:hover{
+  border-color: rgb(14, 16, 106);
+}
+.contactinfo
+{
+  margin-left: 8%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  padding: 1%;
+  width: 82%;
+  background: #9d9ea6;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+}
+.fill
+{
+  color: #9d9ea6;
+}
+.ask{
+  color: #363b4e;
+  margin-top: 2%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.bouton{
+  /*margin: auto;*/
+  margin-left: 180%;
+  color: #fff;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  background-color: #51576f;
+  height: 30px;
+  max-width: 200px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+  border: 1px solid transparent;
+}
+.btn:hover
+{
+  background: transparent;
+  color: #363b4e;
+}
+.header{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .card{
+    flex: 0 0 100%;
+    max-width:100%;
+  }
+}
+.col{
+  margin-left: 25px;
+}

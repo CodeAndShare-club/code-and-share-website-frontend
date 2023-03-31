@@ -5,6 +5,6 @@ export { default as BlogItem } from './blogs/BlogItem';
 export { default as BlogDetail } from './blogs/BlogDetail';
 export { default as Contact } from './contact/Contact';
 export { default as Events } from './events/Events';
-export { default as Faq } from './faq/Faq';
+export { default as Faq } from './faq/faq';
 export { default as Sponsors } from './sponsors/Sponsors';
 export { default as Vision } from './vision/Vision';
